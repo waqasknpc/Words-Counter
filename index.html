@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="counter">
+            <input type="text" placeholder="write any thing here" id="text">
+            <button id="countbutton" onclick="counter()">Count</button>
+            <button type="reset" onclick="document.getElementById('text').value = '' ">Clear Text</button>
+            <h2><span id="words">0</span> Words <span id="char">0</span> Characters</h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
